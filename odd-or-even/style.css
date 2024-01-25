@@ -1,0 +1,32 @@
+@font-face {
+    font-family: MyFont;
+    src: url(/DelaGothicOne-Regular.ttf);
+}
+
+:root{
+    --priclr: #000000;
+    --secclr: #ffffff;
+}
+
+body {
+    font-family: MyFont, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formdiv{
+    padding-bottom: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#mainhead{
+    margin-right: auto;
+}
